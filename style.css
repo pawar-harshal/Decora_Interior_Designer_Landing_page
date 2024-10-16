@@ -1,0 +1,356 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Sintony", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+:root {
+  font-size: 16px;
+}
+.logo {
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  fill: #3e816e;
+  color: #3e816e;
+}
+.logo-text {
+  color: #3e816e;
+  font-weight: 900;
+}
+/* navbar */
+.mynavbar {
+  top: 0.1rem;
+  z-index: 50;
+}
+
+.menu {
+  background-color: #3e816e;
+  border-radius: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.button_contact {
+  background-color: #3e816e;
+  border-radius: 2rem;
+  backdrop-filter: blur(0.25rem);
+  color: rgb(234, 230, 230) !important;
+}
+.nav-link {
+  color: rgb(232, 230, 230) !important;
+  transition: all 0.5s ease-out;
+}
+.nav-link:hover {
+  color: #151515 !important;
+}
+/* section1 */
+.sec1 {
+  min-height: 100vh;
+  background: url("/images/main_bg.jpg");
+  background-size: cover;
+  padding-top: 0;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+.sec1::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(23, 22, 22, 0.118);
+  z-index: 2;
+}
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  z-index: 3;
+  font-size: 3.5rem;
+}
+.sec1 .quote {
+  color: white;
+  position: relative;
+}
+.quote > p {
+  font-size: clamp(0.5rem, 2.5vw + 0.5rem, 1rem);
+  color: rgb(229, 221, 221);
+}
+.quote > h1 {
+  font-size: clamp(1.5rem, 2.5vw + 1.2rem, 3rem);
+  color: rgb(255, 255, 255);
+}
+.button_explore {
+  background-color: #3e816e;
+  border-radius: 2rem;
+  backdrop-filter: blur(0.25rem);
+  color: rgb(234, 230, 230) !important;
+  font-weight: 600;
+  padding: 0.5rem 2rem;
+}
+
+/* section 2 */
+#category {
+  color: #3e816e;
+  text-align: left;
+}
+.sec2 {
+  margin-bottom: 3rem;
+}
+.sec2-l {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.sec2-l > h2 {
+  font-size: clamp(1.2rem, 4vw + 0.5rem, 2.2rem);
+}
+
+.sec2-l > h6 {
+  font-size: clamp(0.5rem, 3vw + 0.5rem, 1rem);
+}
+.sec2-r {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.sec2-r > p {
+  font-size: clamp(1rem, 2.5vw + 0.5rem, 0.7rem);
+}
+/* section 3 */
+
+.myimages {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.6rem;
+}
+
+/* section 4  */
+.main_value {
+  color: whitesmoke;
+  font-size: clamp(1rem, 2.5vw + 0.5rem, 2rem);
+}
+.sub_value {
+  color: whitesmoke;
+  font-size: clamp(0.5rem, 2.5vw + 0.5rem, 1rem);
+}
+.below_sub {
+  color: rgb(223, 220, 220);
+}
+.mybg1 {
+  background-color: #3e816e;
+}
+/* section 5 */
+.sec5_img {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+.about_value {
+  color: #3e816e;
+}
+/* section 6  */
+
+.sec6-l,
+.sec6-r {
+  padding: 1rem;
+}
+/* section 7  */
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 25%;
+}
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.gallery_item {
+  padding: 8px 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.g-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.6rem;
+  transition: all 0.6s ease-in-out;
+}
+.g-image:hover {
+  transform: scale(1.039);
+}
+.gallery_item:hover {
+  filter: saturate(1.4);
+}
+
+/* section 8  */
+.sec8 {
+  min-height: 100vh;
+  background: url("/images/g-7.jpg");
+  background-size: cover;
+  padding-top: 0;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+.sec8::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(23, 22, 22, 0.586);
+  z-index: 2;
+}
+.quote2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  z-index: 3;
+  font-size: 3.5rem;
+}
+.sec8 .quote2 {
+  color: white;
+  position: relative;
+}
+.quote2 > p {
+  font-size: clamp(1rem, 2.5vw + 0.5rem, 4rem);
+  color: rgb(229, 221, 221);
+}
+
+.button_git {
+  background-color: #3e816e;
+  border-radius: 2rem;
+  backdrop-filter: blur(0.25rem);
+  color: rgb(234, 230, 230) !important;
+  font-weight: 600;
+  padding: 0.5rem 3.7rem;
+}
+.button_callus {
+  border-radius: 2rem;
+  border: 0.1rem solid white;
+  backdrop-filter: blur(1rem);
+  color: rgb(234, 230, 230) !important;
+  font-weight: 600;
+}
+
+/* section 9 */
+.mycard img {
+  width: 100%;
+  height: 300px;
+  max-height: 15rem;
+  object-fit: cover;
+}
+
+.feedback {
+  color: #3e816e;
+}
+
+/* section 10 */
+.sec10 {
+  backdrop-filter: blur(2rem);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.button_faq {
+  background-color: #3e816e;
+  border-radius: 2rem;
+  backdrop-filter: blur(0.25rem);
+  color: rgb(234, 230, 230) !important;
+  font-weight: 600;
+  padding: 0.5rem 2rem;
+  font-size: clamp(0.4rem, 2.5vw + 0.5rem, 0.9rem);
+}
+
+#faqtext {
+  color: #3e816e;
+  margin-top: 1rem;
+}
+.accordion {
+  max-height: 30rem;
+  overflow-y: auto;
+}
+.accordion-item {
+  margin-bottom: 0.5rem;
+  border: 0.1rem solid rgba(182, 177, 177, 0.753);
+}
+.accordion-header > button {
+  font-weight: bold;
+}
+
+/* section 11 */
+
+.sec11 {
+  min-height: 30vh;
+  color: rgb(243, 241, 241);
+  background-color: #062d26;
+}
+.button_book_appointment {
+  border: 0.1rem solid #3e816e;
+  border-radius: 2rem;
+  backdrop-filter: blur(0.25rem);
+  color: #3e816e !important;
+  font-weight: 600;
+  padding: 0.5rem 2rem;
+  font-size: clamp(0.5rem, 2.5vw + 0.5rem, 1rem);
+}
+.appointment_text > h6 {
+  font-size: clamp(0.3rem, 2.5vw + 0.5rem, 1rem);
+  color: #3e816e;
+}
+.appointment_text > h2 {
+  font-size: clamp(2rem, 2.5vw + 0.5rem, 2.5rem);
+  font-weight: 300;
+}
+
+/* section 12 */
+.sec12 {
+  min-height: 65vh;
+  background-color: #0c1816;
+  color: rgb(243, 241, 241);
+}
+.tbl {
+  font-size: clamp(0.3rem, 2.5vw + 0.1rem, 1rem);
+}
+.l1 {
+  border: 0.01rem solid #3e816e;
+  margin: -2rem;
+}
+
+.quicklink {
+  color: #fbfbfb;
+}
+.quicklink:hover {
+  color: #3e816e;
+}
+.column2 > p {
+  font-size: clamp(0.3rem, 2.5vw + 0.1rem, 1rem);
+}
+
+.button_email_submit {
+  background-color: #3e816e;
+  border-radius: 0.5rem;
+  backdrop-filter: blur(0.25rem);
+  color: #f7f7f7 !important;
+  font-size: clamp(0.5rem, 2.5vw + 0.5rem, 0.9rem);
+}
