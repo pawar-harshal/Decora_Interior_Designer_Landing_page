@@ -52,7 +52,7 @@ a {
 /* section1 */
 .sec1 {
   min-height: 100vh;
-  background: url("/images/main_bg.jpg");
+  background: url("images/main_bg.jpg");
   background-size: cover;
   padding-top: 0;
   position: relative;
@@ -204,7 +204,7 @@ a {
 /* section 8  */
 .sec8 {
   min-height: 100vh;
-  background: url("/images/g-7.jpg");
+  background: url("images/g-7.jpg");
   background-size: cover;
   padding-top: 0;
   position: relative;
